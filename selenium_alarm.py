@@ -18,7 +18,7 @@ def  job():
     password = driver.find_element_by_css_selector('input.ng-pristine:nth-child(2)')
 
     username.send_keys('MCROUND94@GMAIL.COM')
-    password.send_keys('aMERICA1776')
+    password.send_keys('')
 
     login_attempt = driver.find_element_by_css_selector('.login-button')
 
